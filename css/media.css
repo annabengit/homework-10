@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+}
+@media (max-width: 1158px) {
+  .container {
+    width: 90%;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1119px) {
+  .container {
+    width: 85%;
+  }
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .photo {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .column-footer {
+    padding: 20px;
+  }
+  form {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .column1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .column2 {
+    width: 100%;
+    gap: 30px;
+    flex-direction: column;
+  }
+  input {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 629px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    margin-top: 60px;
+  }
+  .contact {
+    flex-wrap: nowrap;
+  }
+  .contact-box {
+    margin-bottom: 30px;
+  }
+  .gallery {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 548px) {
+  .big-heading {
+    font-size: 37px;
+  }
+}
+
+@media (max-width: 395px) {
+  .container {
+    width: 75%;
+  }
+  .heading {
+    padding: 45px 0;
+  }
+}
+
+@media (max-width: 374px) {
+  .big-heading {
+    font-size: 25px;
+  }
+  .footer {
+    width: 100%;
+  }
+  footer {
+    width: auto;
+  }
+}
